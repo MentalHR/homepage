@@ -125,6 +125,7 @@ section#representative > ul.profile-table > li {
     justify-content: space-between;
     font-size: 16px;
     padding: 3px 0;
+    max-width: 600px;
 }
 
 section#representative > ul.profile-table > li.mb {
