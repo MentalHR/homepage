@@ -1,0 +1,159 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #414141;
+    font-family: Noto Sans JP,-apple-system,circular,blinkmacsystemfont,roboto,sans-serif;
+    margin: 0;
+    overscroll-behavior-y: contain;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fefefe;
+}
+
+@media(max-width: 768px) {
+    .container {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+
+section#top {
+    background-image: url("./images/logo.png");
+    background-size: cover;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+}
+
+@media(max-width: 768px) {
+    section#top {
+        background-size: contain;
+    }
+}
+
+section#main {
+    padding: 30px 0;
+}
+
+section#main > .title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+section#main > .sub {
+    font-size: 24px;
+}
+
+section#question {
+    padding: 30px 0;
+}
+
+section#question > .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section#question > ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+section#question > ul > li {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+section#representative {
+    padding: 30px 0;
+}
+
+section#representative > .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section#representative > .block {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+section#representative > .block > p {
+    width: calc(100% - 300px);
+    padding-right: 100px;
+}
+
+section#representative > .block > img {
+    width: 300px;
+}
+
+@media(max-width: 768px) {
+    section#representative > .block {
+        display: block;
+    }
+
+    section#representative > .block > p {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    section#representative > .block > img {
+        width: 100%;
+    }
+}
+
+section#representative > .sub {
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+section#representative > ul.profile-table {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+section#representative > ul.profile-table > li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 3px 0;
+}
+
+section#representative > ul.profile-table > li.mb {
+    margin-bottom: 10px;
+}
+
+section#representative > ul.academic-table {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+section#representative > ul.academic-table > li {
+    width: calc(100% / 3);
+}
+
+section#representative > ul.license {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+section#inquiry {
+    padding: 30px 0;
+}
+
+section#inquiry > .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
