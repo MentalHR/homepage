@@ -117,6 +117,7 @@ section#representative > ul.profile-table {
     list-style-type: none;
     padding: 0;
     margin-bottom: 20px;
+    max-width: 600px;
 }
 
 section#representative > ul.profile-table > li {
@@ -124,7 +125,6 @@ section#representative > ul.profile-table > li {
     justify-content: space-between;
     font-size: 16px;
     padding: 3px 0;
-    max-width: 600px;
 }
 
 section#representative > ul.profile-table > li.mb {
@@ -136,6 +136,7 @@ section#representative > ul.academic-table {
     list-style-type: none;
     padding: 0;
     margin-bottom: 20px;
+    max-width: 600px;
 }
 
 section#representative > ul.academic-table > li {
@@ -147,6 +148,7 @@ section#representative > ul.license {
     list-style-type: none;
     padding: 0;
     margin-bottom: 20px;
+    max-width: 600px;
 }
 
 section#inquiry {
